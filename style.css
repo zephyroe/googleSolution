@@ -1,0 +1,60 @@
+html {
+  font-family: "Sofia Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  height: 60px;
+  /* background-color: grey; */
+  border-bottom: solid black 1px;
+  display: flex;
+  align-items: center;
+}
+main {
+  margin-left: 50px;
+}
+h1 {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 3.25em;
+  color: rgb(45, 101, 152);
+  /* modfiied size, color */
+}
+.header-title {
+  font-size: 32px;
+  margin: 0;
+  color: rgb(29, 42, 54);
+}
+#book {
+  transform: scale(2,2);
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: 100px; */
+  /* background-color: blue; */
+}
+p {
+  font-weight: lighter;
+  font-size: 24px;
+}
+.discription {
+  width: 50vw;
+}
+.material-symbols-outlined {
+  color: rgb(29, 42, 54);
+  transform: scale(3,3);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 48
+}
+.file-box {
+  width: 400px;
+  /* background: blue; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: 50px;
+}
