@@ -1,0 +1,55 @@
+header {
+  width: 100vw;
+  height: 60px;
+  border-bottom: solid black 1px;
+  display: flex;
+  align-items: center;
+}
+.header-title {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 32px;
+  margin: 0;
+  color: rgb(29, 42, 54);
+}
+menu {
+  position: absolute;
+  right: 20px;
+}
+a {
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(29, 42, 54);
+}
+
+/*
+For the icons, I changed the color and size and most likely
+adjusted the aspect ratio slightly in the process of creating the
+main graphic used on the homepage (src = "home_graphic.png").
+
+All Icons were made availble through the open source icon repository
+made public by Google:
+
+https://fonts.google.com/icons
+https://github.com/google/material-design-icons
+
+Copyright: Google 2016
+Made avaible and used in accordance with the Apache License Version 2.0
+https://www.apache.org/licenses/LICENSE-2.0.txt
+*/
+
+#book {
+  transform: scale(2,2);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.material-symbols-outlined {
+  color: rgb(29, 42, 54);
+  transform: scale(3,3);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 48
+}
