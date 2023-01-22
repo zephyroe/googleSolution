@@ -12,9 +12,12 @@ header {
   color: rgb(29, 42, 54);
   /* color: rgb(45, 101, 152); */
 }
-menu {
+.desktop-menu {
   position: absolute;
   right: 20px;
+}
+.mobile-menu {
+  display: none;
 }
 a {
   margin-left: 20px;
@@ -23,12 +26,35 @@ a {
   color: rgb(29, 42, 54);
 }
 
+@media (max-width: 750px) {
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    position: absolute;
+    top: 61px;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-around;
+    /* background-color: grey; */
+    padding: 0px;
+    margin: 0px;
+    border-bottom: solid 1px black;
+    align-items: center;
+  }
+  a {
+    /* margin-left: 20px; */
+    /* display: none; */
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(29, 42, 54);
+  }
+}
 /*
-For the icons, I changed the color and size and most likely
-adjusted the aspect ratio slightly in the process of creating the
-main graphic used on the homepage (src = "home_graphic.png").
+For the icon in the header, I changed the color and size.
 
-All Icons were made availble through the open source icon repository
+The icon was made availble through the open source icon repository
 made public by Google:
 
 https://fonts.google.com/icons

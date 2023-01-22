@@ -177,3 +177,8 @@ than 800px
     font-size: 22px;
   }
 }
+@media (max-height: 600px) {
+  .link-list {
+    display: none;
+  }
+}
