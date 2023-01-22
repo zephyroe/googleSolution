@@ -20,6 +20,17 @@ p {
   font-weight: lighter;
   font-size: 26px;
 }
+a {
+  transition: color 1s ease-out;
+}
+a:hover {
+  color: rgb(45, 101, 152);
+}
+/* @keyframes menuItem {
+  100% {
+    color: red
+  }
+} */
 .no-margin {
   margin-top: 0px;
   width: 65vw;
