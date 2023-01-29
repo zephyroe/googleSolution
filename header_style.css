@@ -1,9 +1,15 @@
 header {
   width: 100vw;
   height: 60px;
-  border-bottom: solid black 1px;
+  border-bottom: solid rgb(45, 101, 152) 3px;
   display: flex;
   align-items: center;
+}
+.header-menu {
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(29, 42, 54);
 }
 .header-title {
   font-family: "Sofia Sans", sans-serif;
@@ -19,72 +25,32 @@ header {
 .mobile-menu {
   display: none;
 }
-a {
-  margin-left: 20px;
-  font-size: 20px;
-  text-decoration: none;
-  color: rgb(29, 42, 54);
-}
 
 @media (max-width: 750px) {
-  .desktop-menu {
+  /* DONT DELETE COMMENT */
+  /* .desktop-menu {
     display: none;
-  }
+  } */
+  /* DONT DELETE COMMENT */
   .mobile-menu {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
     top: 61px;
     width: 100vw;
     height: 50px;
-    justify-content: space-around;
-    /* background-color: grey; */
     padding: 0px;
     margin: 0px;
     border-bottom: solid 1px black;
-    align-items: center;
   }
 
 }
-
-/* @media (max-device-width: 500px) {
-  header {
-    width: 100vw;
-    height: 12vw;
-    border-bottom: solid black 1px;
-    display: flex;
-    align-items: center;
-    background-color: blue;
-  }
-  .header-title {
-    font-family: "Sofia Sans", sans-serif;
-    font-size: 6vw;
-    margin: 0;
-    color: rgb(29, 42, 54);
-  }
-  a {
-    margin-left: 4vw;
-    font-size: 4vw;
-    text-decoration: none;
-    color: rgb(29, 42, 54);
-  }
-
-  .desktop-menu {
+@media (max-width: 600px) {
+  .header-menu {
     display: none;
   }
-  .mobile-menu {
-    display: flex;
-    position: absolute;
-    top: 12.1vw;
-    width: 100vw;
-    height: 10vw;
-    justify-content: space-around;
-    background-color: grey;
-    padding: 0px;
-    margin: 0px;
-    border-bottom: solid 1px black;
-    align-items: center;
-  }
-} */
+}
 
 /*
 For the icon in the header, I changed the color and size.
@@ -104,7 +70,6 @@ https://www.apache.org/licenses/LICENSE-2.0.txt
   transform: scale(2,2);
   padding-left: 20px;
   padding-right: 20px;
-  /* color: rgb(45, 101, 152) */
 }
 
 .material-symbols-outlined {

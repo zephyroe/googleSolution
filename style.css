@@ -20,11 +20,17 @@ p {
   font-weight: lighter;
   font-size: 26px;
 }
-a {
+.header-menu {
   transition: color 1s ease-out;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
 }
-a:hover {
+.header-menu:hover {
   color: rgb(45, 101, 152);
+}
+.github-logo {
+  height: 30px;
 }
 /* @keyframes menuItem {
   100% {
@@ -52,7 +58,7 @@ a:hover {
 }
 .home_graphic {
   position: relative;
-  top: 25px;
+  top: 20px;
   width: 28vw;
   height: 25.0vw;
   z-index: -1;

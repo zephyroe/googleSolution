@@ -2,6 +2,9 @@
   h2 {
     font-size: 4vw
   }
+  .header-menu {
+    display: none;
+  }
   .link-list {
     display: flex;
     flex-direction: column;
@@ -24,9 +27,11 @@
   p {
     font-size: 5vw;
   }
-  .desktop-menu {
+  /* DONT DELETE COMMENT*/
+  /* .desktop-menu {
     display: none;
-  }
+  } */
+  /* DONT DELETE COMMENT*/
   .mobile-menu {
     display: flex;
     position: absolute;
@@ -46,20 +51,20 @@
     display: flex;
     align-items: center;
   }
+  .github-logo {
+    height: 6vw;
+  }
   .header-title {
     font-family: "Sofia Sans", sans-serif;
     font-size: 6vw;
     margin: 0;
     color: rgb(29, 42, 54);
   }
-  a {
+  .header-menu {
     margin-left: 4vw;
     font-size: 4vw;
     text-decoration: none;
     color: rgb(29, 42, 54);
-  }
-  .desktop-menu {
-    display: none;
   }
   .mobile-menu {
     display: flex;
